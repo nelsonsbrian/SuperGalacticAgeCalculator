@@ -33,4 +33,8 @@ describe('LifeExpectancy', function() {
         expect(yearsRemaining).toEqual(12.24);
     });
 
+    it('should return how many year you have to live while living on Venus', function() {
+        let yearsRemaining = inputAge.remainingYearsVenus();
+        expect(yearsRemaining).toEqual(31.62);
+    });    
 });

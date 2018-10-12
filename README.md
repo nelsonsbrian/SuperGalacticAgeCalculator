@@ -21,7 +21,7 @@ Game and GamePlay
 | *User age input is converted to Jupiter years* | 29 = "343.94" | true |
 | **Life Expectancy** |  |  |
 | *User age input and life expectancy is converted to how many years the person has left to live on Mecury* | age29, lifeExp80 = "12.24" | true |
-| *User age input and life expectancy is converted to how many years the person has left to live on Venus* | age29, lifeExp80 = "23.44" | true |
+| *User age input and life expectancy is converted to how many years the person has left to live on Venus* | age29, lifeExp80 = "31.62" | true |
 | *User age input and life expectancy is converted to how many years the person has left to live on Mars* | age29, lifeExp80 = "95.88" | true |
 | *User age input and life expectancy is converted to how many years the person has left to live on Jupiter* | age29, lifeExp80 = "604.86" | true |
 | *User age input and life expectancy is converted to how many years the person has left to live on Mecury* | age29, lifeExp20 = "-2.16" | true |

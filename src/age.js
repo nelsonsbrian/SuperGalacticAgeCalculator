@@ -23,6 +23,10 @@ export class Age {
     remainingYearsMercury() {
         return  +(this.convertToMercury(this.lifeExpectancy) - this.convertToMercury(this.age)).toFixed(2);
     }
+
+    remainingYearsVenus() {
+        return  +(this.convertToVenus(this.lifeExpectancy) - this.convertToVenus(this.age)).toFixed(2);
+    }    
 }
 
 //let birthday = new Date(2018 - this.age, 9, 10);    
