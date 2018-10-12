@@ -30,7 +30,11 @@ export class Age {
 
     remainingYearsMars() {
         return  +(this.convertToMars(this.lifeExpectancy) - this.convertToMars(this.age)).toFixed(2);
-    }      
+    } 
+    
+    remainingYearsJupiter() {
+        return  +(this.convertToJupiter(this.lifeExpectancy) - this.convertToJupiter(this.age)).toFixed(2);
+    }       
 }
 
 //let birthday = new Date(2018 - this.age, 9, 10);    

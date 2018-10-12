@@ -42,4 +42,9 @@ describe('LifeExpectancy', function() {
         let yearsRemaining = inputAge.remainingYearsMars();
         expect(yearsRemaining).toEqual(95.88);
     });      
+
+    it('should return how many year you have to live while living on Jupiter', function() {
+        let yearsRemaining = inputAge.remainingYearsJupiter();
+        expect(yearsRemaining).toEqual(604.86);
+    });          
 });
