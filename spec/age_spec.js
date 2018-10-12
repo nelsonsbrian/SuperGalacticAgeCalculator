@@ -46,5 +46,12 @@ describe('LifeExpectancy', function() {
     it('should return how many year you have to live while living on Jupiter', function() {
         let yearsRemaining = inputAge.remainingYearsJupiter();
         expect(yearsRemaining).toEqual(604.86);
-    });          
+    });
+    
+    it('should return how many year you have to live while living on Mecury -- living longer than your inputed life expectancy', function() {
+        let oldPerson = new Age(29, 20);        
+        let yearsRemaining = oldPerson.remainingYearsMercury();
+        expect(yearsRemaining).toEqual(-2.16);
+    });
+    
 });
