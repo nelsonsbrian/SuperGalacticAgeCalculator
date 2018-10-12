@@ -14,6 +14,10 @@ export class Age {
     convertToMars() {
         return +(this.age * 1.88).toFixed(2);
     }      
+
+    convertToJupiter() {
+        return +(this.age * 11.86).toFixed(2);
+    }
 }
 
 //let birthday = new Date(2018 - this.age, 9, 10);    

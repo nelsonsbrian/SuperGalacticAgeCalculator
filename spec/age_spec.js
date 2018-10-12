@@ -18,4 +18,9 @@ describe('AgeConverting', function() {
         let convertedAge = inputAge.convertToMars();
         expect(convertedAge).toEqual(54.52);
     });    
+
+    it('should return the age of a person in Jupiter years', function() {
+        let convertedAge = inputAge.convertToJupiter();
+        expect(convertedAge).toEqual(343.94);
+    });    
 });
