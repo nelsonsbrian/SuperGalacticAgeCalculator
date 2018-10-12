@@ -36,5 +36,10 @@ describe('LifeExpectancy', function() {
     it('should return how many year you have to live while living on Venus', function() {
         let yearsRemaining = inputAge.remainingYearsVenus();
         expect(yearsRemaining).toEqual(31.62);
-    });    
+    });
+
+    it('should return how many year you have to live while living on Mars', function() {
+        let yearsRemaining = inputAge.remainingYearsMars();
+        expect(yearsRemaining).toEqual(95.88);
+    });      
 });
