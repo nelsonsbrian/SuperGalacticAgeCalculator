@@ -5,7 +5,12 @@ export class Age {
     
     convertToMercury() {
         return this.age * .24;
-        //let birthday = new Date(2018 - this.age, 9, 10);    
-        //console.log(`${today.getFullYear()} ${today.getMonth()} ${today.getDate()} ${dateToDay(today)}`);
     }
+    
+    convertToVenus() {
+        return this.age * .62;
+    }  
 }
+
+//let birthday = new Date(2018 - this.age, 9, 10);    
+//console.log(`${today.getFullYear()} ${today.getMonth()} ${today.getDate()} ${dateToDay(today)}`);
