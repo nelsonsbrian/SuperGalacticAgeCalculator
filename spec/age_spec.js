@@ -55,3 +55,16 @@ describe('LifeExpectancy', function() {
     });
     
 });
+
+describe('LifeExpectancy', function() {
+
+    let inputAge = new Age(29);
+    let newCreated = new Date(2018, 9, 12, 9, 17);
+    inputAge.created = newCreated;
+
+
+    it('should return how many magfly lifetimes you have lived', function() {
+        let magflyYears = inputAge.magflyYears();
+         expect(magflyYears).toEqual(5133144);
+    });  
+});

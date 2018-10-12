@@ -2,6 +2,8 @@ export class Age {
     constructor(age, lifeExpectancy) {
         this.age = age;
         this.lifeExpectancy = lifeExpectancy;
+        this.created = Date.now();
+        this.birthYear = +(this.created / 31536000000 + 1970 - age).toFixed(0);
     }
     
     convertToMercury(inputYear) {
@@ -34,8 +36,9 @@ export class Age {
     
     remainingYearsJupiter() {
         return  +(this.convertToJupiter(this.lifeExpectancy) - this.convertToJupiter(this.age)).toFixed(2);
-    }       
+    }
+    
+    magflyYears() {
+        return Math.floor(this.created / 300000 + 1970 - this.age);
+    }
 }
-
-//let birthday = new Date(2018 - this.age, 9, 10);    
-//console.log(`${today.getFullYear()} ${today.getMonth()} ${today.getDate()} ${dateToDay(today)}`);
