@@ -15,16 +15,16 @@ Game and GamePlay
 | Spec | Input | Output |
 | :-----------------  | :------------- | :---------- |
 | **Age** |  |  |
-| *User age input is converted to Mercurian years* | 29 = "6.96" | true |
-| *User age input is converted to Venetian years* | 29 = "17.98" | true |
-| *User age input is converted to Marsan years* | 29 = "54.52" | true |
-| *User age input is converted to Jupiter years* | 29 = "343.94" | true |
+| *User age input is converted to Mercurian years* | 29 = "120.83" | true |
+| *User age input is converted to Venetian years* | 29 = "46.77" | true |
+| *User age input is converted to Marsan years* | 29 = "15.43" | true |
+| *User age input is converted to Jupiter years* | 29 = "2.45" | true |
 | **Life Expectancy** |  |  |
-| *User age input and life expectancy is converted to how many years the person has left to live on Mecury* | age29, lifeExp80 = "12.24" | true |
-| *User age input and life expectancy is converted to how many years the person has left to live on Venus* | age29, lifeExp80 = "31.62" | true |
-| *User age input and life expectancy is converted to how many years the person has left to live on Mars* | age29, lifeExp80 = "95.88" | true |
-| *User age input and life expectancy is converted to how many years the person has left to live on Jupiter* | age29, lifeExp80 = "604.86" | true |
-| *User age input and life expectancy is converted to how many years the person has left to live on Mecury* | age29, lifeExp20 = "-2.16" | true |
+| *User age input and life expectancy is converted to how many years the person has left to live on Mecury* | age29, lifeExp80 = "212.5" | true |
+| *User age input and life expectancy is converted to how many years the person has left to live on Venus* | age29, lifeExp80 = "82.26" | true |
+| *User age input and life expectancy is converted to how many years the person has left to live on Mars* | age29, lifeExp80 = "27.12" | true |
+| *User age input and life expectancy is converted to how many years the person has left to live on Jupiter* | age29, lifeExp80 = "4.3" | true |
+| *User age input and life expectancy is converted to how many years the person has left to live on Mecury* | age29, lifeExp20 = "-37.5" | true |
 | **MayFly** |  |  |
 | *User age input and how many lifetimes of a mayfly they have lived in earth time (as of 9/12/2018 at 9:17AM PTC* | age29, = "5133144" | true |
 
