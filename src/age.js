@@ -1,22 +1,27 @@
 export class Age {
-    constructor(age) {
+    constructor(age, lifeExpectancy) {
         this.age = age;
+        this.lifeExpectancy = lifeExpectancy;
     }
     
-    convertToMercury() {
-        return +(this.age * .24).toFixed(2);
+    convertToMercury(inputYear) {
+        return +(inputYear * .24).toFixed(2);
     }
     
-    convertToVenus() {
-        return +(this.age * .62).toFixed(2);
+    convertToVenus(inputYear) {
+        return +(inputYear * .62).toFixed(2);
     }
     
-    convertToMars() {
-        return +(this.age * 1.88).toFixed(2);
+    convertToMars(inputYear) {
+        return +(inputYear * 1.88).toFixed(2);
     }      
 
-    convertToJupiter() {
-        return +(this.age * 11.86).toFixed(2);
+    convertToJupiter(inputYear) {
+        return +(inputYear * 11.86).toFixed(2);
+    }
+
+    remainingYearsMercury() {
+        return  +(this.convertToMercury(this.lifeExpectancy) - this.convertToMercury(this.age)).toFixed(2);
     }
 }
 
